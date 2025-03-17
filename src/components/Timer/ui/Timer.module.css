@@ -1,0 +1,52 @@
+.Timer {
+  width: 50vw;
+  height: 50vh;
+  background: #fd8a8a;
+  border-radius: 25px;
+  border: 5px solid #41444b;
+  padding: 25px 50px;
+}
+
+.Title {
+  font-size: 25px;
+  color: #41444b;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+
+.Time {
+  font-size: 75px;
+  font-weight: 600;
+  color: #41444b;
+  text-align: center;
+}
+
+.Status {
+  font-size: 25px;
+  font-weight: 500;
+  color: #41444b;
+  text-align: center;
+}
+
+.Buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.Button {
+  background: #f6f5f2;
+  border: 2px solid #41444b;
+  border-radius: 15px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.Button:hover {
+  background: #ff9b9b;
+}
+.Button span {
+  font-size: 35px;
+  color: #41444b;
+}/*# sourceMappingURL=Timer.module.css.map */
