@@ -5,6 +5,7 @@
   border-radius: 25px;
   border: 5px solid #41444b;
   padding: 25px 50px;
+  position: relative;
 }
 
 .Title {
@@ -49,4 +50,10 @@
 .Button span {
   font-size: 35px;
   color: #41444b;
+}
+
+.Setting {
+  position: absolute;
+  top: 25px;
+  right: 25px;
 }/*# sourceMappingURL=Timer.module.css.map */

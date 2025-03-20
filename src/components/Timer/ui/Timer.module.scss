@@ -7,6 +7,7 @@
   border-radius: 25px;
   border: 5px solid c.$black;
   padding: 25px 50px;
+  position: relative;
 }
 
 .Title {
@@ -53,4 +54,10 @@
     font-size: 35px;
     color: c.$black;
   }
+}
+
+.Setting {
+  position: absolute;
+  top: 25px;
+  right: 25px;
 }
